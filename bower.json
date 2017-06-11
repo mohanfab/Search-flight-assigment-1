@@ -1,21 +1,17 @@
 {
   "name": "fligh_search_tw",
-  "description": "Flight search module",
+  "description": "Search-flight-assigment-1",
   "main": "main.js",
-  "license": "MIT",
   "moduleType": [],
   "homepage": "index.html",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "dependencies": {
     "angular-mocks": "~1.5.0",
     "angular-resource": "~1.5.0",
-    "jquery-ui": "jquery.ui#~1.11.4",
     "jquery": "~2.2.1"
   }
 }
