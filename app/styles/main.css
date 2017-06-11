@@ -1,0 +1,144 @@
+    
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+header{
+    padding: 1%;
+    background: #999;
+    color: #fff;
+}
+[disabled = "disabled"]{
+    opacity: 0.5;
+}
+.visibility-hidden{
+    visibility: hidden;
+}
+.text-align-center{
+    text-align: center;
+}
+.btn{
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 100;
+    outline: none;
+}
+.btn-large{
+    width: 120px;
+    font-size: 25px;
+}
+.btn-medium{
+    width: 100px;
+    height: 36px;
+    font-size: 15px;
+}
+.btn-normal{
+    background-color: red;
+    color: #fff;
+}
+
+
+/*================= SEARCH FORM CSS START =================*/
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    float: left;
+    border: 1px solid #000;
+    margin: 3px 3px 0px 3px;
+    padding: 5px 5px 0px 5px;
+    background-color: #CCC;
+    color: #696969;
+    cursor: pointer;
+}
+li.active{
+        background: white;
+}
+#mainView {
+    border: 1px solid black;
+    clear: both;
+    padding: 0 1em;
+}
+.active {
+    background-color: #FFF;
+    color: #000;
+}
+.serchContainer{
+    margin: 3% auto;
+    border-radius: 12px;
+    padding: 10px;
+}
+form{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0 5px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    background-color: #dddddd;
+}
+
+.form-control {
+    padding: 10px;
+}
+.form-control input{
+    width: 150px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #B3B3B3;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+.form-control label{
+    font-size: 18px;
+}
+.clear{
+    clear:both;
+}
+.db{
+    display: block;
+}
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=80);
+}
+#loading {
+    width: 50px;
+    height: 57px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -28px 0 0 -25px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flight Search</title>
+        <link rel="stylesheet" href="styles/jquery-ui.min.css"/>
+        <link rel="stylesheet" href="styles/main.css"/>
+        <link rel="stylesheet" href="styles/mediaQueries.css"/>
+
+    </head>
+    <body >
+        <header>
+            <span class="title">
+                Flight Search
+            </span>
+        </header>
+        <article>
+            <div ng-app="mainApp">
+                <ng-include src="'components/searchForm/searchForm.html'"></ng-include>
+            </div>
+        </article>
+      
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="components/searchForm/searchFormDirective.js"></script>
+    
+    </body>
+</html>
